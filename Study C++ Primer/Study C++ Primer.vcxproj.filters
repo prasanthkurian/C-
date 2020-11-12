@@ -13,17 +13,77 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Chapter2">
+      <UniqueIdentifier>{69172fde-ff55-4a21-861f-79321c9b465f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chapter3">
+      <UniqueIdentifier>{06b71983-4b4f-4170-8153-a7862b02b02f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Arguments.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="ch_static.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="count_consecutive.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
     <ClCompile Include="First.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="hackerrank_datatype1.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Notes.cpp">
+      <Filter>Source Files\Chapter2</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Second.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_learn.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Third.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Variables.cpp">
+      <Filter>Source Files\Chapter2</Filter>
+    </ClCompile>
+    <ClCompile Include="intro.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="namespace_notes.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="String_notes.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector_notes.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Second.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Third.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hackerrank_datatype1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sales_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
