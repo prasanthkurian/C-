@@ -41,6 +41,7 @@ void read_into_vector();
 void manipulate_int_vector();
 void grade_bucket();
 void sum_elements();
-
+void iterator_play();
+void iterator_declarations();
 #endif
 

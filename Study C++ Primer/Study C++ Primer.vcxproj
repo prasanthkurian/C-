@@ -22,6 +22,7 @@
     <ClCompile Include="Arguments.cpp" />
     <ClCompile Include="count_consecutive.cpp" />
     <ClCompile Include="hackerrank_datatype1.cpp" />
+    <ClCompile Include="iterators.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="First.cpp" />
     <ClCompile Include="namespace_notes.cpp" />

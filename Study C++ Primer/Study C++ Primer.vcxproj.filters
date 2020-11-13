@@ -66,6 +66,9 @@
     <ClCompile Include="Vector_notes.cpp">
       <Filter>Source Files\Chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="iterators.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="First.h">

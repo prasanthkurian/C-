@@ -62,7 +62,9 @@ int main() {
 	//read_into_vector();
 	//manipulate_int_vector();
 	//grade_bucket();
-	sum_elements();
+	//sum_elements();
+	//iterator_play();
+	iterator_declarations();
 }
 
 
