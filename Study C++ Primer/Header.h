@@ -43,5 +43,9 @@ void grade_bucket();
 void sum_elements();
 void iterator_play();
 void iterator_declarations();
+void exerceise1();
+void exercise2();
+void exercise3();
+void binary_search();
 #endif
 

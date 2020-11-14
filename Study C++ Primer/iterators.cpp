@@ -108,4 +108,72 @@ void iterator_declarations() {
     
 }
 
+void exerceise1() {
+    vector<int> v{ 1,2,3,4,5,6,7,8,9 };
+
+    for (auto it = v.begin(); it != v.end(); it++) {
+        *it *= *it;
+    }
+    for (auto it = v.cbegin(); it != v.end(); it++) {
+        cout << *it << endl;
+    }
+
+}
+
+void exercise2() {
+    vector<string> text = { "hello prasanth how are u mr prasanth","", "hai how dear mr pk" };
+    
+    for (auto it = text.begin(); it != text.end() && ! it->empty(); it++) {
+        for (auto s = it->begin(); s != it->end(); s++) {
+                *s = toupper(*s);
+        }
+    }
+    for (auto it = text.begin(); it != text.end(); it++) {
+        cout << *it << endl;
+    }
+}
+
+void exercise3() {
+    vector<int> v = { 1,2,3,4,5,6,7,8,9,10 };
+
+    for (auto it = v.begin(); it != v.end(); it++) {
+        *it = *it * 2;
+    }
+    for (auto it = v.cbegin(); it != v.cend(); it++) {
+        cout << *it << endl;
+    }
+}
+
+
+/* Iterator Arithemetic 
+
+iter + n 
+iter - n
+iter += n
+iter -= n
+iter1 - ter2
+!= , ==, <, <= , > , >=
+
+*/
+
+void binary_search() {
+    vector<int> v = { 1,2,3,4,5,6,7,8,9,10 };
+
+    auto begin = v.begin(), end = v.end();
+    auto mid = v.begin() + (end - begin) / 2;
+    int sought;
+    cin >> sought;
+    while ( mid != end && *mid != sought ) {
+        if (sought < *mid) {
+            end = mid;
+        }
+        else {
+            begin = mid;
+        }
+        mid = begin + (end - begin) / 2;
+    }
+    cout << sought << endl;
+    cout << "position : " << mid - v.begin() << endl;
+}
+
 

@@ -64,7 +64,12 @@ int main() {
 	//grade_bucket();
 	//sum_elements();
 	//iterator_play();
-	iterator_declarations();
+	//iterator_declarations();
+	//exerceise1();
+	//exercise2();
+	//exercise3();
+	binary_search();
+
 }
 
 
