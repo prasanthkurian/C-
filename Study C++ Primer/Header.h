@@ -47,5 +47,6 @@ void exerceise1();
 void exercise2();
 void exercise3();
 void binary_search();
+void array_exercise1();
 #endif
 

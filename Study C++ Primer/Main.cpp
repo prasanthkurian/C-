@@ -68,8 +68,8 @@ int main() {
 	//exerceise1();
 	//exercise2();
 	//exercise3();
-	binary_search();
-
+	//binary_search();
+	array_exercise1();
 }
 
 
